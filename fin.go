@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"os"
 
+	_ "github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
